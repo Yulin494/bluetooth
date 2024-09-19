@@ -47,8 +47,10 @@ extension MainViewController: BluetoothServiceDelegate, CBPeripheralDelegate {
     }
     
     func getBLEPeripheralValue(value: String) {
-        self.NumberLb.text = value
-        print("\(value)")
+        DispatchQueue.main.async {
+            self.NumberLb.text = value
+            print("\(value)")
+        }
     }
 }
 
