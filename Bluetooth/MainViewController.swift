@@ -17,7 +17,7 @@ class MainViewController: UIViewController {
     var BluetoothName: [CBPeripheral] = []
     
     // MARK: - LifeCycle
-    
+
     override func viewDidLoad() {
         super.viewDidLoad()
         tableSet()

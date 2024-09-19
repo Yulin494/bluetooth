@@ -16,9 +16,8 @@
                 <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="18D-Jp-UJU">
-                        <rect key="frame" x="22" y="12" width="42" height="21"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="18D-Jp-UJU">
+                        <rect key="frame" x="19" y="11.5" width="282" height="21"/>
                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
@@ -26,10 +25,16 @@
                 </subviews>
             </tableViewCellContentView>
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <constraints>
+                <constraint firstItem="18D-Jp-UJU" firstAttribute="centerY" secondItem="njF-e1-oar" secondAttribute="centerY" id="63t-T0-U3Y"/>
+                <constraint firstItem="18D-Jp-UJU" firstAttribute="height" secondItem="njF-e1-oar" secondAttribute="height" multiplier="0.477273" id="O70-4B-YsZ"/>
+                <constraint firstItem="18D-Jp-UJU" firstAttribute="centerX" secondItem="njF-e1-oar" secondAttribute="centerX" id="Z3j-kP-FPn"/>
+                <constraint firstItem="18D-Jp-UJU" firstAttribute="width" secondItem="njF-e1-oar" secondAttribute="width" multiplier="0.88125" id="mfQ-Zd-Afr"/>
+            </constraints>
             <connections>
                 <outlet property="NameLb" destination="18D-Jp-UJU" id="4bR-y0-NVg"/>
             </connections>
-            <point key="canvasLocation" x="132" y="69"/>
+            <point key="canvasLocation" x="-75.362318840579718" y="18.080357142857142"/>
         </tableViewCell>
     </objects>
 </document>
